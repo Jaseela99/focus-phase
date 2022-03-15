@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.nav{
+  background-color: #282c34;
+  padding: 25px;
+  
+
+}
+.nav-list{
+  padding: 10px;
+  margin:10px;
+  display :flex;
+  gap:20px;
+ 
+}

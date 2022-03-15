@@ -1,14 +1,16 @@
 import React from 'react';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Input from './Components/Input';
+/* import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home';
 import Nav from './Components/Nav';
 import Signin from './Components/Signin';
-
+ */
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+       <Input/>
+      {/* <BrowserRouter>
         <Nav/>
       <Routes>
 
@@ -16,7 +18,7 @@ function App() {
         <Route path="/login" element={<Signin/>}/>
       </Routes>
       
-      </BrowserRouter>
+      </BrowserRouter> */}
       
     </div>
   );
